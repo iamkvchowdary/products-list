@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.box{
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+body {
+  background: #F5F1EE;
+  font-family: 'Roboto', sans-serif
+}
+
+.card {
+  width: 250px;
+  border-radius: 10px
+}
+
+.card-img-top {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px
+}
+
+span.text-muted {
+  font-size: 12px
+}
+
+small.text-muted {
+  font-size: 8px
+}
+
+h5.mb-0 {
+  font-size: 1rem
+}
+
+small.ghj {
+  font-size: 9px
+}
+
+.mid {
+  background: #ECEDF1
+}
+
+h6.ml-1 {
+  font-size: 13px
+}
+
+small.key {
+  text-decoration: underline;
+  font-size: 9px;
+  cursor: pointer
+}
+
+.btn-danger {
+  color: #FFCBD2
+}
+
+.btn-danger:focus {
+  box-shadow: none
+}
+
+small.justify-content-center {
+  font-size: 9px;
+  cursor: pointer;
+  text-decoration: underline
+}
+
+@media screen and (max-width:600px) {
+  .col-sm-4 {
+    margin-bottom: 50px
+  }
+}
+.product-item {
+  .product-item-content {
+    border: 1px solid var(--surface-d);
+    border-radius: 3px;
+    margin: .3rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .product-image {
+    width: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+  }
+}
