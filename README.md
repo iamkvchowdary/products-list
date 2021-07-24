@@ -1,6 +1,19 @@
-# Products
+# Builds the product details page with all products
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
+Consumes the JSON of products
+• Builds the product details page with all products
+• Displays the product details, including price, product name and the main hero image
+• Interacts intuitivley; if you click on the image, you should see an overlay with a carousal of all thumbnail images
+JSON URL - https://www.westelm.com/services/catalog/v4/category/shop/new/all-new/index.json
+
+## Tech Stack
+| Technology | Version | Purpose |
+| ------ | ------ | ------ |
+| Type Script | 4.2.3 | Client Side Language |
+| Angular | 12 | Application Framework |
+| Prime Ng | 12 | UI Tool Kit |
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
 ## Development server
 
@@ -14,14 +27,27 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```sh
+UI Angular - List of Products 
+```
+![image_1](https://user-images.githubusercontent.com/53008196/126876569-8c08f37e-1f11-468a-9308-80a5ed5605a4.JPG)
 
-## Running end-to-end tests
+```sh
+UI Angular - List of Products in Mobile
+```
+![image_2](https://user-images.githubusercontent.com/53008196/126876571-da86d1bb-61f0-4be5-a66c-837d67392bb7.JPG)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```sh
+UI Angular - List of Products with Carousel
+```
+![carousel](https://user-images.githubusercontent.com/53008196/126876566-24bb541a-69f7-4c13-88cb-5601aea6ad58.JPG)
 
-## Further help
+```sh
+Test Cases and Code Coverage
+```
+![code-coverage](https://user-images.githubusercontent.com/53008196/126876567-77ba7903-87f4-48fb-bf90-b43057b0f810.JPG)
+![code-covergae](https://user-images.githubusercontent.com/53008196/126876568-1943bfe6-37f8-4917-bfcf-5dcdbb71a191.JPG)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
